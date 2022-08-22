@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+body{
+    background: #ffc6c7;
+    width: 70%;
+    margin: auto;
+    padding-top: 150px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login{
+    background: #fffffe;
+    padding: 50px;
+    width: 35%;
+}
+
+.header{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.header h1{
+    font-size: 45px;
+    color: #33272a;
+}
+
+.myform{
+    text-align: center;
+}
+
+.mail{
+    padding: 15px;
+}
+
+.mail input[type = "text"]{
+    width: 80%;
+    background: #faeee7;
+    padding: 10px 5px;
+    border: none;
+}
+.pass input[type="password"]{
+    width: 74%;
+    background: #faeee7;
+    padding: 10px 5px;
+    border: none;
+}
+
+.forget{
+    margin: 20px;
+}
+
+.forget a{
+    text-decoration: none;
+    color: #594a4e;
+}
+
+.btn{
+    padding: 10px 30px;
+    background: #ff8ba7;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #33272a;
+    
+}
+.btn2{
+    padding: 13px 30px;
+    background: #ff8ba7;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #33272a;
+    
+}
+
+.content{
+    background: #594a4e;
+    padding: 109.5px 50px;
+    width: 35%;
+    text-align: center;
+}
+
+.header2{
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.header2 h1{
+    font-size: 45px;
+    color: #fffffe;
+}
+.content p{
+    padding: 10px;
+    text-align: center;
+    color: #fffffe;
+    margin-bottom: 22px;
+}
+
+.name{
+    display: flex;
+    /* padding-right: 10px; */
+    justify-content: space-between;
+}
+
+.name input[type="text"]{
+    margin: 0 10px;
+    width: 80%;
+    background: #faeee7;
+    padding: 10px 5px;
+    border: none;
+}
+
+.myform2{
+    text-align: center;
+
+}
+
+.myform2 .mail input[type = "text"]{
+    margin-left: -6px;
+    width: 100%;
+    background: #faeee7;
+    padding: 10px 5px;
+    border: none;
+}
+.myform2 .pass input[type="password"]{
+    margin-left: -3.5px;
+    width: 92%;
+    background: #faeee7;
+    padding: 10px 5px;
+    border: none;
+}
+
+.content2{
+    background: #594a4e;
+    padding: 136px 50px;
+    width: 35%;
+    text-align: center;
+    
+}
+
+.content2 p{
+    padding: 10px;
+    text-align: center;
+    color: #fffffe;
+    margin-bottom: 13px;
+}
+
+.log{
+    display: none;
+}
